@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className="flex min-h-screen flex-wrap items-center">
+    <section className="flex min-h-screen flex-wrap items-center mt-4">
       <motion.div
         className="w-full md:w-1/2"
         initial={{ opacity: 0, x: -50 }}
