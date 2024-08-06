@@ -45,8 +45,8 @@ Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.co
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-portfolio-app.git
-cd your-portfolio-app
+git clone https://github.com/ShivamTanwar0801/Portfolio.git
+cd Portfolio
 ```
 
 ### Install Dependencies
@@ -63,7 +63,7 @@ To start the development server, run:
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 
 ## Project Structure
 
@@ -74,15 +74,13 @@ your-portfolio-app/
 ├── src/
 │   ├── assets/
 │   ├── components/
+│   │   ├── Hero.jsx
 │   │   ├── Header.jsx
-│   │   ├── Footer.jsx
-│   │   ├── ProjectCard.jsx
-│   │   └── ... (other components)
-│   ├── pages/
-│   │   ├── Home.jsx
 │   │   ├── Projects.jsx
+│   │   ├── About.jsx
+│   │   ├── Skills.jsx
 │   │   ├── Contact.jsx
-│   │   └── ... (other pages)
+│   │   ├── Footer.jsx
 │   ├── App.jsx
 │   ├── index.css
 │   ├── main.jsx
@@ -111,7 +109,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-Made with ❤️ by [Your Name](https://your-portfolio-link.com)
+Made with ❤️ by [Shivam Tanwar](https://portfolio-93511.web.app/)
 ```
 
-Make sure to replace placeholders such as `your-username`, `your-portfolio-app`, `your-portfolio-app-demo-link`, and `Your Name` with the actual values. This `README.md` file provides a comprehensive overview of the project, including setup instructions, usage, and contribution guidelines.
